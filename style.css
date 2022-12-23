@@ -1,0 +1,91 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.orange-color {
+    color: orange;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.top-banner {
+    background-image: url(image/top-banner1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#section1 {
+    display: flex;
+}
+
+section {
+    background-image: url(image/IMG-20221215-WA0018.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#section2 {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.half-width img {
+    width: 70%;
+    padding-left: 30px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 15px 40px;
+}
+
+#section-area {
+    background-image: url(image/IMG-20221215-WA0022.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#under-two-flex {
+    display: flex;
+}
+
+#full-stack-developer {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-left: 7px solid tomato;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#baby-developer {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-left: 7px solid blue;
+    box-shadow: 10px 10px 40px gray;
+}
+
+footer {
+    text-align: center;
+}
+
+.the-end {
+    color: orange;
+}
